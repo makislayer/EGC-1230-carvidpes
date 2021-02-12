@@ -10,7 +10,7 @@ RUN pip install ipython
 
 WORKDIR /app
 
-RUN git clone https://github.com/makislayer/EGC-1230-carvidpes.git .
+RUN git clone -b desarrollo https://github.com/makislayer/EGC-1230-carvidpes.git .
 RUN pip install -r requirements.txt
 
 WORKDIR /app/decide
